@@ -47,5 +47,6 @@ public class GameManager : MonoBehaviour
     public void Replay()
     {
         isActive = true;
+        gameOver = false;
     }
 }

@@ -40,8 +40,14 @@ public class TicTacToe : MonoBehaviour
         image.sprite = null;
         if (image.sprite == null)
         {
-            GameManager._instance.isActive = false;
+            StartCoroutine(Delay());
             Debug.Log("hi");
         }
+    }
+
+    public IEnumerator Delay()
+    {
+        yield return new WaitForSeconds(1f);
+        GameManager._instance.isActive = false;
     }
 }
