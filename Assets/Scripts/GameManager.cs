@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour
     public static GameManager _instance;
     [SerializeField] public bool isActive;
     [SerializeField] public bool gameOver = false;
+    public Stack<GameObject> stack;
+    public int counter;
+
     public static GameManager Instance
     {
         get
@@ -24,7 +27,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
     private void Awake()
     {
         if (_instance != null)
@@ -36,6 +38,8 @@ public class GameManager : MonoBehaviour
             _instance = this;
         }
         DontDestroyOnLoad(gameObject);
+
+        stack = new Stack<GameObject>();
     }
 
     public int PlayerTurns()
@@ -48,5 +52,11 @@ public class GameManager : MonoBehaviour
     {
         isActive = true;
         gameOver = false;
+    }
+
+    public void Undo()
+    {
+        stack.Pop();
+        counter--;
     }
 }

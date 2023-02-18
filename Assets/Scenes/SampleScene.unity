@@ -218,6 +218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3963164913743139122, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8385185427441513021, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
       propertyPath: _image
       value: 
@@ -563,6 +567,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3963164913743139122, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8385185427441513021, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
       propertyPath: _image
       value: 
@@ -602,6 +610,7 @@ MonoBehaviour:
   oScoreNum: 0
   isActive: 0
   gameOver: 0
+  counter: 0
 --- !u!4 &303378343
 Transform:
   m_ObjectHideFlags: 0
@@ -958,6 +967,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3963164913743139122, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8385185427441513021, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
       propertyPath: _image
       value: 
@@ -1192,6 +1205,10 @@ PrefabInstance:
     - target: {fileID: 3963164913743139121, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
       propertyPath: m_Name
       value: Button (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3963164913743139122, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
+      propertyPath: m_Color.a
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385185427441513021, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
       propertyPath: _image
@@ -1542,6 +1559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3963164913743139122, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8385185427441513021, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
       propertyPath: _image
       value: 
@@ -1642,6 +1663,10 @@ PrefabInstance:
     - target: {fileID: 3963164913743139121, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
       propertyPath: m_Name
       value: Button (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3963164913743139122, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
+      propertyPath: m_Color.a
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385185427441513021, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
       propertyPath: _image
@@ -1811,6 +1836,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3963164913743139122, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8385185427441513021, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
       propertyPath: _image
       value: 
@@ -1911,6 +1940,10 @@ PrefabInstance:
     - target: {fileID: 3963164913743139121, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
       propertyPath: m_Name
       value: Button (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3963164913743139122, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
+      propertyPath: m_Color.a
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385185427441513021, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
       propertyPath: _image
@@ -2174,6 +2207,10 @@ PrefabInstance:
     - target: {fileID: 3963164913743139121, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
       propertyPath: m_Name
       value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 3963164913743139122, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
+      propertyPath: m_Color.a
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8385185427441513021, guid: 47911f83c64d33042ad32d31b50592ba, type: 3}
       propertyPath: _image

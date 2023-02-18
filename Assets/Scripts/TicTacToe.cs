@@ -19,7 +19,7 @@ public class TicTacToe : MonoBehaviour
 
     public void OnClick()
     {
-        if (_image.sprite == null)
+        if(_image.sprite == null)
         {
             int index = GameManager._instance.PlayerTurns();
             if (index == 0)
@@ -32,6 +32,10 @@ public class TicTacToe : MonoBehaviour
                 _image.sprite = oImage;
                 Debug.Log("p2");
             }
+
+            GameManager._instance.stack.Push(this.gameObject);
+            GameManager._instance.counter++;
+            Debug.Log("stack:" + GameManager._instance.stack.Count);
         }
     }
 
@@ -41,13 +45,12 @@ public class TicTacToe : MonoBehaviour
         if (image.sprite == null)
         {
             StartCoroutine(Delay());
-            Debug.Log("hi");
         }
     }
 
     public IEnumerator Delay()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         GameManager._instance.isActive = false;
     }
 }
